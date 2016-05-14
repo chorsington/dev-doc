@@ -8,7 +8,7 @@ This is my own guide so that I can repeat the setup easily.
 
 ### Documentation
 
-Most projects come with a README, these are usually written in Markdown or RestructedText.  Here are two got Markdown editors for Mac OS X that support a live preview and behave similar to a regular document editor.
+Most projects come with a README, these are usually written in Markdown or reStructuredText.  Here are two Markdown editors for Mac OS X that support a live preview and behave similar to a regular document editor.
 
 - *Typora* for Mac OS X is [here](https://www.typora.io/)
 - *MacDown* for Mac OS X is [here](http://macdown.uranusjr.com)
@@ -67,7 +67,9 @@ This an autocompletion plugin for vim and supports Python and Go.
 - `git clone https://github.com/altercation/vim-colors-solarized.git`
 - `git clone https://github.com/morhetz/gruvbox.git`
 
-Some of the colors can be installedas Plugins
+Each *.vim* file should be placed in the `~/.vim/colors/` directory.
+
+Some of the colors can be installed as Plugins
 
 ```
 Plugin 'morhetz/gruvbox'
