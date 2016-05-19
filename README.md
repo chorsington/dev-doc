@@ -138,7 +138,15 @@ To ensure Go has the necessary binaries within vim run:
 
 ### Go and Vim
 
+- `:GoFmt` will correct any format errors (like PEP8 for Go), and should be run automatically when `:w` (on save) when using vim-go.
+- Install tagbar
+  - `brew install ctags`
+  - Add the following Plugins to the `.vimrc`
 
+```
+Plugin 'jstemmer/gotags'
+Plugin 'majutsushi/tagbar'
+```
 
 ### Go Resources
 
